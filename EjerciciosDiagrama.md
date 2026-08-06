@@ -3,7 +3,7 @@
 ## EJERCICIO 1
 Crear algoritmo que realize el ingreso total y promedio mensual en una empresa
 ### Diagrama de flujo
-![Imagen Ejercicio 1](img/Ejemplo1.drawio.png)
+![Imagen Ejercicio 1](Imagenes/Ejemplo1.drawio.png)
 
 ## Ejercio 2
 Crear algoritmo para saber la edad de una persona a traves de su fecha de cumpleaños y la fecha actual
