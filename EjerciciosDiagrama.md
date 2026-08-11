@@ -6,7 +6,7 @@ Crear algoritmo que realize el ingreso total y promedio mensual en una empresa
 
 ![Imagen Ejercicio 1](Imagenes/Ejemplo1.drawio.png)
 
-## Ejercio 2
+## Ejercicio 2
 Crear algoritmo para saber la edad de una persona a traves de su fecha de cumpleaños y la fecha actual
 
 ![Imagen Ejercicio2](Imagenes/Cumpleaños.jpeg)
@@ -27,8 +27,24 @@ El director de una escuela está organizando un viaje de estudios, y requiere de
 ## Ejercicio 5
  **Control de temperatura del motor**
 
-    Durante una inspección de rutina, se mide la temperatura de un motor de turbina. Si la temperatura es mayor a un valor crítico, se debe indicar "Peligro: sobrecalentamiento". Si está dentro del rango seguro, indicar "Operación normal". Si es demasiado baja, indicar "Motor frío – Calentar antes de operar"  
+Durante una inspección de rutina, se mide la temperatura de un motor de turbina. Si la temperatura es mayor a un valor crítico, se debe indicar "Peligro: sobrecalentamiento". Si está dentro del rango seguro, indicar "Operación normal". Si es demasiado baja, indicar "Motor frío – Calentar antes de operar"  
 
 ![Ejercicio5](Imagenes/EjercicioMotor.drawio.png)
+
+## Ejercicio 6
+Un sistema debe registrar la altitud de vuelo cada 10 minutos durante una hora y mostrar todas las mediciones al final.
+
+**En pseudocodigo*
+
+Inicio
+cont=0
+Leer nivel
+Mientras nivel ≥ Max*0,1  
+  cont=cont+1  
+  Leer nivel  
+Fin mientras  
+Mostrar "Tiempo transmitido" cont  
+Fin  
+
 
 
