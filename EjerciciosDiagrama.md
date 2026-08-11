@@ -34,11 +34,11 @@ Durante una inspección de rutina, se mide la temperatura de un motor de turbina
 ## Ejercicio 6
 Un sistema debe registrar la altitud de vuelo cada 10 minutos durante una hora y mostrar todas las mediciones al final.
 
-**En pseudocodigo*
+**En pseudocodigo**
 
-Inicio
-cont=0
-Leer nivel
+Inicio  
+cont=0  
+Leer nivel  
 Mientras nivel ≥ Max*0,1  
   cont=cont+1  
   Leer nivel  
@@ -46,5 +46,17 @@ Fin mientras
 Mostrar "Tiempo transmitido" cont  
 Fin  
 
+## Ejercicio 7
+Un sistema mide cada 5 minutos la temperatura en cabina durante una hora. Si en algún momento se detecta una temperatura mayor a 27°C o menor a 18°C, debe indicar que se active el sistema de climatización.
 
-
+**Pseudocodigo**
+Inicio  
+cont=0  
+Leer temp  
+Mientras cont<12  
+  Si temp>27 o temp<12  
+  Mostrar "Activar climatizacion"  
+Fin Si
+cont=cont+1
+Fin Mientras
+Fin
