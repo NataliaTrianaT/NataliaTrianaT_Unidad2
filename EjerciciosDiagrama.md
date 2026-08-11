@@ -24,5 +24,11 @@ El director de una escuela está organizando un viaje de estudios, y requiere de
 
 ![Imagen Ejercicio4](Imagenes/Ejercicio2notion.drawio.png)
 
+## Ejercicio 5
+ **Control de temperatura del motor**
+
+    Durante una inspección de rutina, se mide la temperatura de un motor de turbina. Si la temperatura es mayor a un valor crítico, se debe indicar "Peligro: sobrecalentamiento". Si está dentro del rango seguro, indicar "Operación normal". Si es demasiado baja, indicar "Motor frío – Calentar antes de operar"  
+
+![Ejercicio5](Imagenes/EjercicioMotor.drawio.png)
 
 
