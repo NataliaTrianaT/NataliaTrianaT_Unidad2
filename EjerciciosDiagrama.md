@@ -50,7 +50,7 @@ Fin
 Un sistema mide cada 5 minutos la temperatura en cabina durante una hora. Si en algún momento se detecta una temperatura mayor a 27°C o menor a 18°C, debe indicar que se active el sistema de climatización.
 
 **Pseudocodigo**
-Inicio  
+Inicio   
 cont=0  
 Leer temp  
 Mientras cont<12  
