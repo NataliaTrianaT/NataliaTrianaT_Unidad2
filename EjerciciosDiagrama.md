@@ -11,52 +11,32 @@ Crear algoritmo para saber la edad de una persona a traves de su fecha de cumple
 
 ![Imagen Ejercicio2](Imagenes/Cumpleaños.jpeg)
 
-
 ## Ejercicio 3
+Un acuario necesita determinar cuántos litros o galones (eso lo decide el usuario) de agua caben en un acuario, pero solo dispone de una cinta métrica (en centímetros). Diseña un algoritmo para solucionar el problema.  
+
+
+
+
+
+## Ejercicio 4
 Realice un algoritmo para determinar cuánto se debe pagar por equis cantidad de lápices considerando que si son 1000 o más el costo es de $85 cada uno; de lo contrario, el precio es de $90. Represéntelo con el pseudocódigo y el diagrama de flujo.  
 
 ![Ejercicio3](Imagenes/EJercicio3notion.png)
 
 
 
-## Ejercicio 4
+
+
+## Ejercicio 5
+Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se les aplicará un descuento de 15%, de caso contrario, sólo se aplicará un 8% de descuento. Realice un algoritmo para determinar el precio final que debe pagar una persona por comprar en dicho almacén y de cuánto es el descuento que obtendrá. Represéntelo mediante el pseudocódigo y el diagrama de flujo.
+
+
+
+
+
+
+## Ejercicio 6
 El director de una escuela está organizando un viaje de estudios, y requiere determinar cuánto debe cobrar a cada alumno y cuánto debe pagar a la compañía de viajes por el servicio. La forma de cobrar es la siguiente: si son 100 alumnos o más, el costo por cada alumno es de $65.00; de 50 a 99 alumnos, el costo es de $70.00, de 30 a 49, de $95.00, y si son menos de 30, el costo de la renta del autobús es de $4000.00, sin importar el número de alumnos.  
 
 ![Imagen Ejercicio4](Imagenes/Ejercicio2notion.drawio.png)
 
-## Ejercicio 5
- **Control de temperatura del motor**
-
-Durante una inspección de rutina, se mide la temperatura de un motor de turbina. Si la temperatura es mayor a un valor crítico, se debe indicar "Peligro: sobrecalentamiento". Si está dentro del rango seguro, indicar "Operación normal". Si es demasiado baja, indicar "Motor frío – Calentar antes de operar"  
-
-![Ejercicio5](Imagenes/EjercicioMotor.drawio.png)
-
-## Ejercicio 6
-Un sistema debe registrar la altitud de vuelo cada 10 minutos durante una hora y mostrar todas las mediciones al final.
-
-**En pseudocodigo**
-
-Inicio  
-cont=0  
-Leer nivel  
-Mientras nivel ≥ Max*0,1  
-  cont=cont+1  
-  Leer nivel  
-Fin mientras  
-Mostrar "Tiempo transmitido" cont  
-Fin  
-
-## Ejercicio 7
-Un sistema mide cada 5 minutos la temperatura en cabina durante una hora. Si en algún momento se detecta una temperatura mayor a 27°C o menor a 18°C, debe indicar que se active el sistema de climatización.
-
-**Pseudocodigo**  
-Inicio   
-cont=0  
-Leer temp  
-Mientras cont<12  
-  Si temp>27 o temp<12  
-  Mostrar "Activar climatizacion"  
-Fin Si
-cont=cont+1
-Fin Mientras
-Fin
