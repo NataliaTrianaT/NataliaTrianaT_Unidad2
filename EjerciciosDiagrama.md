@@ -24,8 +24,17 @@ Realice un algoritmo para determinar cuánto se debe pagar por equis cantidad de
 ![Ejercicio3](Imagenes/lapiz.jpeg)
 
 
-
-
+**Pseudocodigo**  
+Inicio  
+Leer L  
+Si L>=100 Entonces  
+C=85  
+Si no  
+C =90  
+Fin Si  
+F=L* C  
+Escribir F
+Fin
 
 ## Ejercicio 5
 Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se les aplicará un descuento de 15%, de caso contrario, sólo se aplicará un 8% de descuento. Realice un algoritmo para determinar el precio final que debe pagar una persona por comprar en dicho almacén y de cuánto es el descuento que obtendrá. Represéntelo mediante el pseudocódigo y el diagrama de flujo.
