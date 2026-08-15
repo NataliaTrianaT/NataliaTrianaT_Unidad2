@@ -35,19 +35,17 @@ Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se l
 **Pseudocodigo**
 Inicio  
     Leer Mcompra  
-    Si Mcompra > 250000 Entonces
+    Si Mcompra > 250000 Entonces  
          15% de descuento para compras mayores a $250.000
-        descuento = Mcompra * 0.15
-    Sino
+        descuento = Mcompra * 0.15  
+    Sino  
         8% de descuento para compras iguales o menores a $250.000
-        descuento=Mcompra * 0.08
-    FinSi
-
-    
-    Pfinal=Mcompra - descuento
-    Escribir descuento 
-    Escribir Pfinal
-    Fin
+        descuento=Mcompra * 0.08  
+    FinSi  
+    Pfinal=Mcompra - descuento  
+    Escribir descuento  
+    Escribir Pfinal  
+    Fin  
 
 
 
