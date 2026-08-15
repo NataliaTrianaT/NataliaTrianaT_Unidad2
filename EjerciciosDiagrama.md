@@ -32,8 +32,8 @@ Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se l
 
 ![Ejercicio ropa](Imagenes/ropa.jpeg)
 
-**Pseudocodigo**
-Inicio  
+**Pseudocodigo**  
+    Inicio  
     Leer Mcompra  
     Si Mcompra > 250000 Entonces  
          15% de descuento para compras mayores a $250.000
