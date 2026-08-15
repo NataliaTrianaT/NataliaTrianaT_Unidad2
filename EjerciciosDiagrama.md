@@ -14,7 +14,7 @@ Crear algoritmo para saber la edad de una persona a traves de su fecha de cumple
 ## Ejercicio 3
 Un acuario necesita determinar cuántos litros o galones (eso lo decide el usuario) de agua caben en un acuario, pero solo dispone de una cinta métrica (en centímetros). Diseña un algoritmo para solucionar el problema.  
 
-
+![Imagen Ejercicio3](Imagenes/acuario.jpeg)
 
 
 
@@ -30,7 +30,24 @@ Realice un algoritmo para determinar cuánto se debe pagar por equis cantidad de
 ## Ejercicio 5
 Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se les aplicará un descuento de 15%, de caso contrario, sólo se aplicará un 8% de descuento. Realice un algoritmo para determinar el precio final que debe pagar una persona por comprar en dicho almacén y de cuánto es el descuento que obtendrá. Represéntelo mediante el pseudocódigo y el diagrama de flujo.
 
+![Ejercicio ropa](Imagenes/ropa.jpeg)
 
+**Pseudocodigo**
+Inicio  
+    Leer Mcompra  
+    Si Mcompra > 250000 Entonces
+         15% de descuento para compras mayores a $250.000
+        descuento = Mcompra * 0.15
+    Sino
+        8% de descuento para compras iguales o menores a $250.000
+        descuento=Mcompra * 0.08
+    FinSi
+
+    
+    Pfinal=Mcompra - descuento
+    Escribir descuento 
+    Escribir Pfinal
+    Fin
 
 
 
